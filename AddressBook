@@ -37,6 +37,7 @@ contract AddressBook is Ownable(msg.sender) {
         nextId++;
     }
 
+
     // Function to delete a contact by its ID
     function deleteContact(uint id) external onlyOwner {
         // Get the index of the contact to be deleted
